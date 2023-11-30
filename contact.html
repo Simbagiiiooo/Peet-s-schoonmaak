@@ -205,6 +205,33 @@ page-title -->
         ernaar uit van je te horen! Wij antwoorden binnen  24 uur!</p>
       </div>
     </div>
+    <div class="row" >
+      <div class="col-sm-12">
+        <div id="formmessage">Success/Error Message Goes Here</div>
+        <form id="contactform" role="form" method="post" action="php/contact-form.php">
+          <div class="contact-form clearfix">
+            <div class="section-field">
+              <input id="name" type="text" placeholder="Naam*" class="form-control" name="name">
+            </div>
+            <div class="section-field">
+              <input type="email" placeholder="Email*" class="form-control" name="email">
+            </div>
+            <div class="section-field">
+              <input type="text" placeholder="Telefoonnummer*" class="form-control" name="phone">
+            </div>
+            <div class="section-field textarea">
+              <textarea class="form-control input-message" placeholder="Vraag*" rows="7" name="message"></textarea>
+            </div>
+            <div class="section-field submit-button" id="map">
+              <input type="hidden" name="action" value="sendEmail" />
+              <button id="submit" name="submit" type="submit" value="Send" class="button"> Verstuur je vraag </button>
+            </div>
+          </div>
+        </form>
+        <div id="ajaxloader" style="display:none"><img class="mx-auto mt-30 mb-30 d-block"
+            src="images/pre-loader/loader-13.svg" alt=""></div>
+      </div>
+    </div>
   </div>
 </section>
 
