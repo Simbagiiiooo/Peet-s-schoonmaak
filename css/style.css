@@ -170,7 +170,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 .mega-menu .col-md-12  { padding-left: 0px; padding-right: 0px; }
 .mega-menu.desktopTopFixed .menu-logo { padding: 0px; }
 .mega-menu.desktopTopFixed .search-cart i.icon { line-height: 20px; }
-.mega-menu.desktopTopFixed .menu-list-items .menu-logo > li > a img { height: 90px; }
+.mega-menu.desktopTopFixed .menu-list-items .menu-logo > li > a img { height: 30px; }
 .mega-menu .badge  { color: #ffffff; }
 .mega-menu .drop-down-multilevel li.activeTriggerMobile { background: #fafafa; }
 
